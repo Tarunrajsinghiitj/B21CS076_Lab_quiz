@@ -148,7 +148,15 @@ Answer12:   Unused: Initial state of the process
             Zombie: The process has terminated, but its exit status is required by its parent to consider it      
             completed and then remove it.
 
-Answer13:
+Answer13: Superblock: Holds important file system metadata, including the overall count of blocks and inodes.
+         Inode: Pointers to data blocks, size information, and permissions are all stored in the inode, which is a representation of a file or directory.
+         Data blocks: The actual space used to store directory entries or file content.
+         Directory entry: A directory entry associates readable file names with the appropriate inodes.
+         Bitmaps: Show which data blocks and inodes are in use by tracking their allocation status.
+         File descriptor table: Keeps track of a process's open files, including the offset of the active file.
+         Log:  After a crash, it offers a means of restoring the file system to a consistent condition.
+         Cylinder groups:  To maximize efficiency and parallelism in file system operations, group disk space into manageable chunks.
+
 
 Answer14:
 
