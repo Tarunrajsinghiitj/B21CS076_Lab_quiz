@@ -172,7 +172,10 @@ Answer16: Three essential shell commands in the XV6 operating system that I have
             2: cd --> change directory command to go to another directory
             3: echo --> Prints the given text to the output console terminal
 
-Answer17: Process synchronization in XV6 
+Answer17: In xv6, process synchronization plays a critical role in coordinating multiple processes to prevent data corruption and 
+         and also faciliates consistent execution. It keeps data consistent and avoids race Conditions. 
+         To synchronize access to shared resources, xv6 uses condition variables (sleep() and wakeup()) and locks, which are implemented through procedures   like : the acquire() and release().
+         Locks helps in enabling mutual exclusion so that only one process can access the critical section at a time. 
 
 Answer18: The role of interrupts in the XV6 operating system is to faciliate system calls.
 
