@@ -119,4 +119,6 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 Please write your answers here
 
 Answer1: - b. A Unix-like operating system
+Answer2: - b. Linux
+
 
