@@ -126,7 +126,7 @@ Answer3: - d. simple
 
 Answer4: - b. As interrupts
 
-Answer5:  - a. 128
+Answer5: - a. 128
 
 Answer6: - c. Sh
 
@@ -140,7 +140,13 @@ Answer10: - b. No
 
 Answer11: - c. MIT
 
-Answer12:
+Answer12:   Unused: Initial state of the process
+            Embryo: The process is under the operation of being created but is not yet ready to run.
+            Sleeping: The process is waiting for some event to occur like I/O or some other event.
+            Runnable: The process have all conditions fulfiled to run but not yet running.
+            Running: The process is currently running on the CPU.
+            Zombie: The process has terminated, but its exit status is required by its parent to consider it      
+            completed and then remove it.
 
 Answer13:
 
@@ -149,19 +155,19 @@ Answer14:
 Answer15: In XV6 Paging works in a similar fashion of dividing the physical memory into blocks called pages 
             and dividing the Virtual memory into blocks called frames and then these pages are allocated to different frames by keeping a record into a page table.
          Paging is a memory management and space allocation scheme where non-contagious memory allocation 
-          for pages of a process is done by maintaining a page table which helps to translate logical address to physical address during address translation. 
-          This concept of paging helps us to accomodate multiple programs on the Main memory and also  enhance the working of multiple processes simultaneously.
+          for pages of a process is done by maintaining a page table which helps to translate logical address to physical address during address translation. This concept of paging helps us to accomodate multiple programs on the Main memory and also enhance the working of multiple processes simultaneously.
 
 Answer16: Three essential shell commands in the XV6 operating system that I have used are:
             1: ls --> used to list the contents of the current directory
             2: cd --> change directory command to go to another directory
             3: echo --> Prints the given text to the output console terminal
 
-Answer17:
+Answer17: Process synchronization in XV6 
 
-Answer18:
+Answer18: The role of interrupts in the XV6 operating system is to faciliate system calls.
 
 Answer19:
 
 Answer10:
+
 
