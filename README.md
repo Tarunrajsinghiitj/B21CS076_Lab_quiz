@@ -127,7 +127,12 @@ Answer3: - d. simple
 Answer4: - b. As interrupts
 
 Answer5: - a. 128
-
+Interrupts are essential in xv6's to multitask and react to external events.
+      Control is transferred to the kernel via hardware interrupts, which are enabled by I/O operations.
+      By handling the interrupt, the kernel's interrupt handler enables the operating system to respond to asynchronous events.
+      Software interrupts, often known as system calls, give user programs a regulated way to ask the kernel for services.
+      Saving the current state, running the interrupt handler, and then restoring the state are the steps involved in handling interrupts.
+      In xv6, interrupts are essential for responsiveness because they let the system deal with outside events quickly and divide the CPU among several activities effectively.
 Answer6: - c. Sh
 
 Answer7: - a. Round-robin scheduling
@@ -177,7 +182,12 @@ Answer17: In xv6, process synchronization plays a critical role in coordinating 
          To synchronize access to shared resources, xv6 uses condition variables (sleep() and wakeup()) and locks, which are implemented through procedures   like : the acquire() and release().
          Locks helps in enabling mutual exclusion so that only one process can access the critical section at a time. 
 
-Answer18: The role of interrupts in the XV6 operating system is to faciliate system calls.
+Answer18: Interrupts are essential in xv6's to multitask and react to external events.
+      Control is transferred to the kernel via hardware interrupts, which are enabled by I/O operations.
+      By handling the interrupt, the kernel's interrupt handler enables the operating system to respond to asynchronous events.
+      Software interrupts, often known as system calls, give user programs a regulated way to ask the kernel for services.
+      Saving the current state, running the interrupt handler, and then restoring the state are the steps involved in handling interrupts.
+      In xv6, interrupts are essential for responsiveness because they let the system deal with outside events quickly and divide the CPU among several activities effectively.
 
 Answer19:
 
