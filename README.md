@@ -119,6 +119,42 @@ Welcome to the XV Quiz for CSL 3030 - Operating Systems!
 Please write your answers here
 
 Answer1: - b. A Unix-like operating system
+
 Answer2: - b. Linux
 
+Answer3: - d. simple
+
+Answer4: - b. As interrupts
+
+Answer5:
+
+Answer6: - c. Sh
+
+Answer7: - a. Round-robin scheduling
+
+Answer8: - a. Paging
+
+Answer9: - d. Both b and c
+
+Answer10: - b. No
+
+Answer11: - c. MIT
+
+Answer12:
+
+Answer13:
+
+Answer14:
+
+Answer15:
+
+Answer16:
+
+Answer17:
+
+Answer18:
+
+Answer19:
+
+Answer10:
 
