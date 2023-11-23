@@ -158,7 +158,9 @@ Answer13: Superblock: Holds important file system metadata, including the overal
          Cylinder groups:  To maximize efficiency and parallelism in file system operations, group disk space into manageable chunks.
 
 
-Answer14:
+Answer14: System calls provide a interface for user programs to request services from the kernel in xv6.
+            Example: fork() or exit(). 
+            Library functions, such as those in the C standard library, are user-level routines that applications link against, Example: printf() or malloc(). 
 
 Answer15: In XV6 Paging works in a similar fashion of dividing the physical memory into blocks called pages 
             and dividing the Virtual memory into blocks called frames and then these pages are allocated to different frames by keeping a record into a page table.
